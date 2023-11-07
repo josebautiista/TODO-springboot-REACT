@@ -196,7 +196,10 @@ const Modal = ({ task, closeModal, setRecargar }) => {
           </div>
 
           {task && task.estado ? (
-            <div className="flex flex-col w-1/6 min-w-min">
+            <div
+              className="flex flex-col w-1/6 min-w-min"
+              style={{ color: textColor }}
+            >
               <label className="text-sm font-semibold mb-1 mr-4">Estado:</label>
               <div className="flex items-center gap-2">
                 <p className="text-sm">{task.estado}</p>

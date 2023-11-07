@@ -40,7 +40,7 @@ const AllNotes = () => {
         </div>
       ) : (
         <div className="text-center text-ripe-plum-100 text-xl">
-          No hay tareas para mostrar
+          No hay notas para mostrar
         </div>
       )}
     </section>
